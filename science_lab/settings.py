@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-_f=kmv#1@^+k_*&@uspjtyto+#@#s2xl_cf-ubak%egynh5#e+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["equipmentlab.tech", "localhost"]
+CSRF_TRUSTED_ORIGINS = ["https://equipmentlab.tech", "http://localhost"]
 
 
 
