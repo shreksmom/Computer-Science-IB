@@ -1,0 +1,2 @@
+#!/bin/sh
+OPENAI_API_KEY=sadasdasd python3 manage.py $@
